@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>دنیای دوربین و عکس کریستال</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+  <header class="bg-gray-900 text-white p-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">دنیای دوربین و عکس کریستال</h1>
+      <nav class="space-x-4 space-x-reverse">
+        <a href="#products" class="hover:text-yellow-400">محصولات</a>
+        <a href="#about" class="hover:text-yellow-400">درباره ما</a>
+        <a href="#contact" class="hover:text-yellow-400">تماس با ما</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-center py-16 bg-cover bg-center" style="background-image:url('https://source.unsplash.com/1600x600/?camera,photography');">
+    <div class="bg-black bg-opacity-50 py-12">
+      <h2 class="text-4xl font-bold text-white mb-4">دنیای عکس، لنز و خلاقیت!</h2>
+      <p class="text-lg text-gray-200 mb-6">بهترین تجهیزات و خدمات عکاسی را از ما بخواهید.</p>
+      <a href="#products" class="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-6 rounded-lg font-semibold">مشاهده محصولات</a>
+    </div>
+  </section>
+
+  <section id="products" class="py-16 container mx-auto px-4">
+    <h3 class="text-3xl font-bold mb-8 text-center">محصولات ما</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-md rounded-lg p-4">
+        <img src="https://source.unsplash.com/400x300/?camera" alt="دوربین" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h4 class="text-xl font-semibold mb-2">دوربین حرفه‌ای Canon EOS</h4>
+        <p class="text-gray-600 mb-4">وضوح بالا، عملکرد بی‌نظیر در شرایط نوری مختلف.</p>
+        <button class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded">افزودن به سبد</button>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-4">
+        <img src="https://source.unsplash.com/400x300/?lens" alt="لنز" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h4 class="text-xl font-semibold mb-2">لنز پرتره ۵۰mm f/1.8</h4>
+        <p class="text-gray-600 mb-4">لنز محبوب برای عکاسی پرتره و بوکه زیبا.</p>
+        <button class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded">افزودن به سبد</button>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-4">
+        <img src="https://source.unsplash.com/400x300/?tripod" alt="سه پایه" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h4 class="text-xl font-semibold mb-2">سه‌پایه آلومینیومی سبک</h4>
+        <p class="text-gray-600 mb-4">پایه‌ای مستحکم و قابل حمل برای هر عکاسی.</p>
+        <button class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded">افزودن به سبد</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="bg-gray-100 py-16 text-center">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6">درباره دنیای دوربین و عکس کریستال</h3>
+      <p class="text-lg text-gray-700 leading-relaxed">ما با بیش از ۱۰ سال تجربه در فروش تجهیزات عکاسی، به شما کمک می‌کنیم بهترین ابزارها را برای ثبت لحظات خاصتان انتخاب کنید. از دوربین تا لنز و لوازم جانبی، همه چیز را یک‌جا بیابید.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 container mx-auto px-4 text-center">
+    <h3 class="text-3xl font-bold mb-6">تماس با ما</h3>
+    <form class="max-w-lg mx-auto bg-white shadow-md rounded-lg p-8 space-y-4">
+      <input type="text" placeholder="نام شما" class="w-full border p-2 rounded" required>
+      <input type="email" placeholder="ایمیل" class="w-full border p-2 rounded" required>
+      <textarea placeholder="پیام شما..." class="w-full border p-2 rounded" rows="4"></textarea>
+      <button class="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-6 rounded">ارسال پیام</button>
+    </form>
+  </section>
+
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>© 2025 دنیای دوربین و عکس کریستال - همه حقوق محفوظ است.</p>
+  </footer>
+</body>
+</html>
